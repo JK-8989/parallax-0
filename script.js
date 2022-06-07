@@ -8,8 +8,8 @@ window.addEventListener('scroll', function(){
   let value = window.scrollY;
 
   nightSky.style.top = value * 0.5 + 'px';
-  moon.style.right = value * 0.15 + 'px';
-  mountain.style.top = value * 2 + 'px';
-  road.style.top = value * 0.5 + 'px';
-  text.style.top = value * -1 + 'px';
+  moon.style.left = value * 0.5 + 'px';
+  text.style.top = value * 0.5 + 'px';
+  // mountain.style.top = value * 0.01 + 'px';
+
 })
